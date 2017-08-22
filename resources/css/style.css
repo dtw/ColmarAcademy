@@ -1,5 +1,20 @@
 /* Universal Styles */
 
+.mobile {
+  display: none;
+}
+
+/* site containers */
+header,
+footer,
+.banner,
+.information,
+.courses,
+.thesis {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 /* Header Styles */
 
 /* Banner Styles */
