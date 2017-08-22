@@ -15,11 +15,29 @@ footer,
   margin: 0 auto;
 }
 
+.flex-container {
+  display: flex;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Header Styles */
 
 /* Banner Styles */
 
+.hero {
+  max-width: 60%;
+}
+
 /* Information Styles */
+
+.main {
+  max-width: 60%;
+}
 
 /* Course Styles */
 
