@@ -1,5 +1,4 @@
 /* Universal Styles */
-
 .mobile {
   display: none;
 }
@@ -26,15 +25,31 @@ img {
 }
 
 /* Header Styles */
+header {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo,
+nav {
+  max-height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: auto;
+  height: 100%;
+  display: inline-block;
+}
 
 /* Banner Styles */
-
 .hero {
   max-width: 60%;
 }
 
 /* Information Styles */
-
 .main {
   max-width: 60%;
 }
