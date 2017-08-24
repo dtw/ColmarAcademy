@@ -43,10 +43,26 @@ nav {
   align-items: center;
 }
 
+.logo {
+  padding-left: 1.5rem;
+}
+
 .logo img {
   width: auto;
   height: 100%;
   display: inline-block;
+}
+
+nav {
+  padding-right: 1.5rem;
+}
+
+nav span {
+  padding-left: 1rem;
+}
+
+.sitename {
+  text-transform: uppercase;
 }
 
 /* Banner Styles */
