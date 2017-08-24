@@ -31,14 +31,14 @@ img {
 
 /* Header Styles */
 header {
-  height: 64px;
+  height: 4rem;
   display: flex;
   justify-content: space-between;
 }
 
 .logo,
 nav {
-  max-height: 32px;
+  max-height: 2rem;
   display: flex;
   align-items: center;
 }
