@@ -85,11 +85,19 @@ nav span {
 }
 
 /* Information Styles */
-.main {
-  max-width: 60%;
+.information .flex-container {
+  padding-top: 0;
 }
 
-/* Course Styles */
+.main {
+  max-width: 60%;
+  flex-shrink: 1;
+  margin-top: 2rem;;
+}
+
+.main span {
+  display: block;
+}
 
 /* Thesis Styles */
 
