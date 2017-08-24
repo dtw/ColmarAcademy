@@ -151,5 +151,28 @@ nav span {
   text-transform: uppercase;
 }
 /* Thesis Styles */
+.thesis .flex-container {
+  padding-top: 0;
+}
 
+.thesis h2 {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.exhibit-item {
+  display: flex;
+}
+
+.exhibit-item .img-container {
+  height: auto;
+  max-width: 35%;
+  margin: 1rem;
+}
+
+.exhibit-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 /* Footer Styles */
