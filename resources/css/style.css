@@ -176,3 +176,15 @@ nav span {
   justify-content: center;
 }
 /* Footer Styles */
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+  padding-left: 1.5rem;
+}
+
+.legal span {
+  padding-left: 1rem;
+}
