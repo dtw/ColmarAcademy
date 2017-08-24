@@ -68,6 +68,20 @@ nav span {
 /* Banner Styles */
 .hero {
   max-width: 60%;
+  flex-shrink: 1;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1.5rem;
+}
+
+.btn {
+  display: block;
+  padding: 0.5rem auto;
+  text-align: center;
 }
 
 /* Information Styles */
