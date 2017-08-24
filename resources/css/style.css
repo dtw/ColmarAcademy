@@ -99,6 +99,57 @@ nav span {
   display: block;
 }
 
+.additional {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+.info-item {
+  display: flex;
+}
+
+.info-item .img-container {
+  height: auto;
+  max-width: 35%;
+  margin: 1rem;
+}
+
+.info-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Programme Styles */
+.programmes h2 {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.programmes-container {
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis: 16rem;
+  justify-content: space-between;
+  margin: 0 4.5rem;
+}
+
+.programme {
+  flex-basis: 16rem;
+}
+
+.course {
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.course .title {
+  padding-bottom: 0.5rem;
+}
+
+.course h4 {
+  padding: 0.5rem 0 0.5rem 0;
+  text-transform: uppercase;
+}
 /* Thesis Styles */
 
 /* Footer Styles */
