@@ -193,10 +193,12 @@ video {
   flex-direction: column;
   justify-content: center;
 }
+
 /* Footer Styles */
 footer {
   display: flex;
   justify-content: space-between;
+  padding-top: 1rem;
 }
 
 .copyright {
