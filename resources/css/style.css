@@ -236,6 +236,10 @@ h1 {
   font-size: 0.875rem;
 }
 /* Thesis Styles */
+.thesis {
+  background-color: #D3D6DB;
+}
+
 .thesis .flex-container {
   padding-top: 0;
 }
