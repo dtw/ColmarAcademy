@@ -221,6 +221,11 @@ h1 {
   color: #D3D6DB;
 }
 
+.course:hover {
+  background-color: #303841;
+  cursor: pointer;
+}
+
 .course .title {
   color: #BE3144;
   padding-bottom: 0.5rem;
