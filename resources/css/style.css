@@ -136,6 +136,10 @@ h1 {
 }
 
 /* Information Styles */
+.information {
+  background-color: #D3D6DB;
+}
+
 .information .flex-container {
   padding-top: 0;
 }
@@ -148,6 +152,19 @@ h1 {
 
 .main span {
   display: block;
+}
+
+.attribution {
+  font-weight: bold;
+  color: #303841;
+}
+
+.quote {
+  font-family: 'Gentium Basic', serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  line-height: 1.2;
+  padding-bottom: 1.2rem;
 }
 
 .additional {
@@ -169,6 +186,13 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 65%;
+}
+
+.info-details span {
+  font-size: 0.875rem;
+  line-height: 1.2;
+  padding-bottom: 0.5rem;
 }
 
 /* Programme Styles */
