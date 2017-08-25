@@ -101,13 +101,38 @@ nav span {
   flex-direction: column;
   justify-content: center;
   padding-left: 1.5rem;
+  align-items: center;
+}
+
+h1 {
+  color: #BE3144;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 2.5rem;
+}
+
+.cta h3 {
+  color: #3A4750;
+  font-family: 'Gentium Basic', serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 2rem;
+  padding-bottom: 2rem;
 }
 
 .btn {
   display: block;
-  padding: 0.5rem;
+  padding: 1rem;
+  width: 8rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
   text-align: center;
-  border: 1px solid black;
+  text-transform: uppercase;
+  border: 1px solid #D3D6DB;
+  color: #D3D6DB;
+  background-color: #BE3144;
+  cursor: pointer;
 }
 
 /* Information Styles */
