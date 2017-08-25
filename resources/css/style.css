@@ -196,6 +196,10 @@ h1 {
 }
 
 /* Programme Styles */
+.programmes {
+  background-color: #3A4750;
+}
+
 .programmes h2 {
   text-align: center;
 }
@@ -214,15 +218,22 @@ h1 {
 
 .course {
   padding: 1rem 1rem 1.5rem 1rem;
+  color: #D3D6DB;
 }
 
 .course .title {
+  color: #BE3144;
   padding-bottom: 0.5rem;
 }
 
 .course h4 {
   padding: 0.5rem 0 0.5rem 0;
   text-transform: uppercase;
+}
+
+.course .content {
+  line-height: 1.4;
+  font-size: 0.875rem;
 }
 /* Thesis Styles */
 .thesis .flex-container {
