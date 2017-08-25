@@ -82,8 +82,9 @@ nav span {
 
 .btn {
   display: block;
-  padding: 0.5rem auto;
+  padding: 0.5rem;
   text-align: center;
+  border: 1px solid black;
 }
 
 /* Information Styles */
