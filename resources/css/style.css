@@ -8,6 +8,10 @@ html {
   display: none;
 }
 
+h2 {
+  margin: 2rem auto;
+}
+
 /* site containers */
 header,
 footer,
@@ -125,7 +129,6 @@ nav span {
 
 /* Programme Styles */
 .programmes h2 {
-  margin: 2rem auto;
   text-align: center;
 }
 
@@ -159,7 +162,6 @@ nav span {
 }
 
 .thesis h2 {
-  margin: 2rem auto;
   text-align: center;
 }
 
