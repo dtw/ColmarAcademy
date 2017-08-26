@@ -89,10 +89,11 @@ nav {
 nav span {
   padding: 0.5rem;
   border-radius: 3px;
+  transition: background-color 450ms ease-out 75ms;
 }
 
 nav span:hover {
-  background-color: rgba(74,91,102,0.4);
+  background-color: rgba(74,91,102,0.2);
 }
 
 .sitename-a {
@@ -151,6 +152,7 @@ h1 {
   color: #D3D6DB;
   background-color: #BE3144;
   cursor: pointer;
+  transition: all 450ms ease 50ms;
 }
 
 .btn:hover {
@@ -248,6 +250,7 @@ h1 {
   color: #D3D6DB;
   margin-bottom: 0.5rem;
   height: 115px;
+  transition: background-color 400ms ease-out 100ms;
 }
 
 .course:hover {
@@ -297,6 +300,7 @@ video {
 
 .exhibit-item {
   display: flex;
+  transition: background-color 400ms ease-out 100ms;
 }
 
 .exhibit-item:hover {
