@@ -128,6 +128,47 @@ nav span:hover {
   color: #3A4750;
 }
 
+/* display 3/4 of the mobile menu icons */
+@media only screen and (max-width:650px) {
+  .logo {
+    padding-right: 0.5rem;
+  }
+  nav.desktop {
+    display: none;
+  }
+  nav.mobile {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    padding-right: 0rem;
+  }
+  nav.mobile .menu {
+    flex-grow: 1;
+    height: 4rem;
+    transition: all 450ms ease 50ms;
+  }
+  nav.mobile img {
+    padding-top: 1rem;
+    height: 2rem;
+  }
+  nav.mobile .menu:hover,
+  nav.mobile .menu:active {
+    background-color: #BE3144;
+    cursor: pointer;
+  }
+}
+
+/* hide the desktop logo and show the mobile logo */
+@media only screen and (max-width:450px) {
+  .logo {
+    display: none;
+  }
+  .logo.menu {
+    display: block;
+    padding-left: 0;
+  }
+}
+
 /* Banner Styles */
 .hero {
   max-width: 60%;
