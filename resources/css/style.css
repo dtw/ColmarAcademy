@@ -445,6 +445,53 @@ Keep wrapping them onto new rows. */
   line-height: 1.4;
   font-size: 0.875rem;
 }
+
+/* switch from 3x2 to 2x3, so change spacing */
+@media only screen and (max-width: 960px) {
+  .programmes-container {
+    justify-content: space-around;
+  }
+}
+
+/* single column, so widen to match .information image width */
+@media only screen and (max-width: 680px) {
+  .programmes-container {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  .programme {
+    flex-basis: 100%;
+  }
+}
+
+/* switch to the mobile layout */
+@media only screen and (max-width:576px) {
+  .programmes {
+    background-color: white;
+  }
+  .programmes-container {
+    max-width: 100%;
+    margin: 0 1rem 0 1rem;
+  }
+  .programmes .desktop,
+  .programmes .img-container {
+    display: none;
+  }
+  .programme {
+    margin-bottom: 0.5rem;
+  }
+  .course {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #303841;
+  }
+  .course .title {
+    padding: 1rem 0 1rem 1rem;
+    color: #D3D6DB;
+  }
+}
+
 /* Thesis Styles */
 .thesis {
   background-color: #D3D6DB;
