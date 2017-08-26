@@ -334,6 +334,65 @@ The hero is very tall on a tablet so hide the bottom */
   padding-bottom: 0.5rem;
 }
 
+/* screen still too big to fill with side bar,
+so keep main visible and flex side bar vertically */
+@media only screen and (max-width:850px) {
+  .information .flex-container {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+  .main {
+    max-width: 100%;
+    margin-top: 0;
+  }
+  .additional {
+    margin-left: 0;
+  }
+  .info-item {
+    width: 50%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .info-item .img-container {
+    width: 100%;
+    margin: 0;
+  }
+  .information .img-container.desktop {
+    display: none;
+  }
+  .information .img-container.mobile {
+    display: block;
+  }
+  .info-details {
+    padding: 1rem;
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+/* padding again */
+@media only screen and (max-width:680px) {
+  .main {
+    margin-top: 0;
+  }
+  .information .flex-container {
+    padding: 0 0 2rem 0;
+  }
+}
+
+/* go full mobile, hide main, full-width sidebar */
+@media only screen and (max-width:576px) {
+  .information .desktop {
+    display: none;
+  }
+  .information .flex-container {
+    margin: 1rem 1rem 0 1rem ;
+  }
+  .info-item {
+    width: 100%;
+  }
+}
+
 /* Programme Styles */
 .programmes {
   background-color: #303841;
