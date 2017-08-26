@@ -281,6 +281,10 @@ The hero is very tall on a tablet so hide the bottom */
   margin-top: 2rem;
 }
 
+.main .img-container {
+  padding-bottom: 2rem;
+}
+
 .main span {
   display: block;
 }
@@ -333,6 +337,7 @@ The hero is very tall on a tablet so hide the bottom */
 /* Programme Styles */
 .programmes {
   background-color: #303841;
+  padding: 2rem 0 2rem;
 }
 
 .programmes h2 {
