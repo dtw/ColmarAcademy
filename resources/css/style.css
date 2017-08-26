@@ -234,12 +234,14 @@ h1 {
 }
 
 .course {
-  padding: 1rem 1rem 1.5rem 1rem;
+  padding: 1rem;
   color: #D3D6DB;
+  margin-bottom: 0.5rem;
+  height: 115px;
 }
 
 .course:hover {
-  background-color: #303841;
+  background-color: #3A4750;
   cursor: pointer;
 }
 
