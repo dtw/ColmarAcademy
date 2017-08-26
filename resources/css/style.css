@@ -91,8 +91,14 @@ nav span:hover {
   background-color: rgba(74,91,102,0.4);
 }
 
-.sitename {
+.sitename-a {
+  color: #303841;
   text-transform: uppercase;
+  padding-right: 0.2rem;
+}
+
+.sitename-b {
+  color: #3A4750;
 }
 
 /* Banner Styles */
