@@ -403,6 +403,8 @@ so keep main visible and flex side bar vertically */
   text-align: center;
 }
 
+/* as screen size decreases want to keep these big as long as possible.
+Keep wrapping them onto new rows. */
 .programmes-container {
   display: flex;
   flex-flow: row wrap;
@@ -411,6 +413,7 @@ so keep main visible and flex side bar vertically */
   margin: 0 4.5rem;
 }
 
+/* Need to set some sort of fixed width so programmes will wrap onto new rows */
 .programme {
   flex-basis: 16rem;
 }
