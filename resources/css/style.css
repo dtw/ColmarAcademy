@@ -423,7 +423,7 @@ Keep wrapping them onto new rows. */
   color: #D3D6DB;
   margin-bottom: 0.5rem;
   height: 115px;
-  transition: background-color 400ms ease-out 100ms;
+  transition: background-color 400ms ease-out 75ms;
 }
 
 .course:hover {
