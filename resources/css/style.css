@@ -83,7 +83,7 @@ header {
 
 .logo,
 nav {
-  max-height: 2rem;
+  height: 2rem;
   display: flex;
   align-items: center;
 }
@@ -94,8 +94,8 @@ nav {
 }
 
 .logo img {
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
   display: inline-block;
 }
 
@@ -224,7 +224,7 @@ h1 {
 
 .info-item .img-container {
   height: auto;
-  max-width: 35%;
+  width: 35%;
   margin: 1rem;
 }
 
