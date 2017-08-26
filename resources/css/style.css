@@ -11,7 +11,7 @@ html {
 h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 600;
   padding: 2rem 0 2rem 0;
   color: #BE3144;
 }
@@ -94,6 +94,7 @@ nav span {
 .hero {
   max-width: 60%;
   flex-shrink: 1;
+  box-shadow: 1px 1px 3px #D3D6DB;
 }
 
 .cta {
@@ -107,9 +108,10 @@ nav span {
 h1 {
   color: #BE3144;
   font-family: 'Open Sans', sans-serif;
-  font-size: 3rem;
-  font-weight: bold;
+  font-size: 2.5rem;
+  font-weight: 800;
   padding-bottom: 2.5rem;
+  text-shadow: 1px 1px 2px #D3D6DB;
 }
 
 .cta h3 {
@@ -126,7 +128,7 @@ h1 {
   padding: 1rem;
   width: 8rem;
   font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   text-transform: uppercase;
   border: 1px solid #D3D6DB;
@@ -197,7 +199,7 @@ h1 {
 
 /* Programme Styles */
 .programmes {
-  background-color: #3A4750;
+  background-color: #303841;
 }
 
 .programmes h2 {
