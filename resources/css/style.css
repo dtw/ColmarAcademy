@@ -87,6 +87,10 @@ nav span {
   border-radius: 3px;
 }
 
+nav span:hover {
+  background-color: rgba(74,91,102,0.4);
+}
+
 .sitename {
   text-transform: uppercase;
 }
@@ -139,6 +143,11 @@ h1 {
   cursor: pointer;
 }
 
+.btn:hover {
+  border: 1px solid #BE3144;
+  box-shadow: 0 0 10px #BE3144;
+}
+
 /* Information Styles */
 .information {
   background-color: #D3D6DB;
@@ -178,6 +187,10 @@ h1 {
 
 .info-item {
   display: flex;
+}
+
+.info-item a:hover {
+  text-decoration: underline;
 }
 
 .info-item .img-container {
@@ -274,6 +287,11 @@ video {
   display: flex;
 }
 
+.exhibit-item:hover {
+  background-color: rgba(74,91,102,0.4);
+  cursor: pointer;
+}
+
 .exhibit-item .img-container {
   height: auto;
   max-width: 35%;
@@ -292,6 +310,10 @@ footer {
   justify-content: space-between;
   padding-top: 1rem;
   height: 4rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 .copyright {
