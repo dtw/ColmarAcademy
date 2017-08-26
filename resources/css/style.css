@@ -223,6 +223,49 @@ h1 {
   box-shadow: 0 0 10px #BE3144;
 }
 
+/* flex content vertical and max-width hero.
+The hero is very tall on a tablet so hide the bottom */
+@media only screen and (max-width:850px) {
+  .banner .flex-container {
+    flex-direction: column;
+  }
+  .hero {
+    max-width: 100%;
+    height: 325px;
+    overflow: hidden;
+  }
+  h1 {
+    padding-top: 2.5rem;
+  }
+}
+
+/* adjust the padding, God, the padding... */
+@media only screen and (max-width:680px) {
+  .banner .flex-container {
+    padding: 0 0 2rem 0;
+  }
+  .cta {
+    padding: 0 1rem 0 1rem;
+  }
+}
+
+/* the screen size is narrow enough that hero is not too tall */
+@media only screen and (max-width:576px) {
+  h1 {
+    font-size: 2rem;
+    padding: 2rem 0 2rem;
+  }
+  .hero {
+    max-width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+  .cta h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
 /* Information Styles */
 .information {
   background-color: #D3D6DB;
