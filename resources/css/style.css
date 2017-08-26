@@ -29,6 +29,10 @@ a {
   cursor: pointer;
 }
 
+a:visited {
+  color: #303841;
+}
+
 /* site containers */
 header,
 footer,
