@@ -541,6 +541,33 @@ video {
   justify-content: center;
 }
 
+/* just hide the sidebar here */
+@media only screen and (max-width:850px) {
+  .thesis .additional.desktop {
+    display: none;
+  }
+}
+
+/* padding :'( */
+@media only screen and (max-width:680px) {
+  .thesis .flex-container {
+    padding: 0 0 1.5rem 0;
+  }
+}
+
+/* hide accompanying text and make video full width */
+@media only screen and (max-width:640px) {
+  .thesis .desktop {
+    display: none;
+  }
+  .thesis .main {
+    width: 100%;
+  }
+  .vid-container {
+    padding: 0;
+  }
+}
+
 /* Footer Styles */
 footer {
   display: flex;
