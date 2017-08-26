@@ -99,6 +99,11 @@ nav {
   display: inline-block;
 }
 
+/* Hide the mobile menu logo */
+.logo.menu {
+  display: none;
+}
+
 nav {
   padding-right: 1rem;
 }
