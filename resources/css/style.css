@@ -79,11 +79,12 @@ nav {
 }
 
 nav {
-  padding-right: 1.5rem;
+  padding-right: 1rem;
 }
 
 nav span {
-  padding-left: 1rem;
+  padding: 0.5rem;
+  border-radius: 3px;
 }
 
 .sitename {
@@ -132,6 +133,7 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   border: 1px solid #D3D6DB;
+  border-radius: 3px;
   color: #D3D6DB;
   background-color: #BE3144;
   cursor: pointer;
