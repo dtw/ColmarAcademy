@@ -481,6 +481,9 @@ so keep main visible and flex side bar vertically */
   .info-item {
     width: 100%;
   }
+  .info-details a {
+    font-size: 0.875rem;
+  }
 }
 
 /* Programme Styles */
