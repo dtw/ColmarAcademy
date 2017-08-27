@@ -105,7 +105,7 @@ nav {
 }
 
 nav {
-  padding-right: 1rem;
+  padding-right: 1.5rem;
 }
 
 nav span {
@@ -204,7 +204,7 @@ h1 {
 
 .btn {
   position: relative;
-  padding: 1rem;
+  padding: 0.5rem;
   width: 50%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -314,6 +314,10 @@ The hero is very tall on a tablet so hide the bottom */
 
 .main .img-container {
   padding-bottom: 2rem;
+}
+
+.main h2 {
+  padding-bottom: 1.5rem;
 }
 
 .main span {
@@ -539,6 +543,10 @@ Keep wrapping them onto new rows. */
 
 .thesis h3 {
   padding-bottom: 0.5rem;
+}
+
+.thesis .quote {
+  padding-bottom: 0;
 }
 
 .vid-container {
