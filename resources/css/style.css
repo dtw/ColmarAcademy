@@ -223,7 +223,7 @@ h1 {
   box-shadow: 0 0 10px #BE3144;
 }
 
-/* Add fontawesome arrow and animation */
+/* Add fontawesome arrow animation */
 .btn span,
 .btn .arrow {
   display:inline-block;
@@ -249,9 +249,11 @@ h1 {
   right: 0;
   opacity: 1;
 }
+
 .btn:hover span {
   left: 0;
 }
+
 /* flex content vertical and max-width hero.
 The hero is very tall on a tablet so hide the bottom */
 @media only screen and (max-width:850px) {
