@@ -105,12 +105,6 @@ nav {
   color: #303841;
 }
 
-.logo img {
-  width: 100%;
-  height: auto;
-  display: inline-block;
-}
-
 /* Hide the mobile menu logo */
 .logo.menu {
   display: none;
@@ -236,7 +230,7 @@ h1 {
 .btn {
   position: relative;
   padding: 0.5rem;
-  width: 50%;
+  width: 40%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   text-align: center;
@@ -504,8 +498,6 @@ Keep wrapping them onto new rows. */
   display: flex;
   -ms-flex-flow: row wrap;
       flex-flow: row wrap;
-  -ms-flex-preferred-size: 16rem;
-               flex-basis: 16rem;
   -webkit-box-pack: justify;
      -ms-flex-pack: justify;
    justify-content: space-between;
@@ -538,7 +530,7 @@ Keep wrapping them onto new rows. */
 }
 
 .course h4 {
-  padding: 0.5rem 0 0.5rem 0;
+  padding: 0.5rem 0;
   text-transform: uppercase;
 }
 
@@ -574,7 +566,7 @@ Keep wrapping them onto new rows. */
   }
   .programmes-container {
     max-width: 100%;
-    margin: 0 1rem 0 1rem;
+    margin: 0 1rem;
   }
   .programmes .desktop,
   .programmes .img-container {
@@ -607,10 +599,6 @@ Keep wrapping them onto new rows. */
 
 .thesis h2 {
   text-align: center;
-}
-
-.thesis h3 {
-  padding-bottom: 0.5rem;
 }
 
 .thesis .quote {
