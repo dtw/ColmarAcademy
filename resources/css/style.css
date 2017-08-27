@@ -81,11 +81,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+     -ms-flex-pack: justify;
+   justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+     -ms-flex-align: center;
+        align-items: center;
   background-color: #D3D6DB;
 }
 
@@ -96,8 +96,8 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+     -ms-flex-align: center;
+        align-items: center;
 }
 
 .logo {
@@ -154,16 +154,16 @@ nav span:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+   -ms-flex-positive: 1;
+           flex-grow: 1;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+  justify-content: space-around;
     padding-right: 0rem;
   }
   nav.mobile .menu {
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+   -ms-flex-positive: 1;
+           flex-grow: 1;
     height: 4rem;
     -webkit-transition: all 450ms ease 50ms;
     transition: all 450ms ease 50ms;
@@ -194,7 +194,7 @@ nav span:hover {
 .hero {
   max-width: 60%;
   -ms-flex-negative: 1;
-      flex-shrink: 1;
+        flex-shrink: 1;
   box-shadow: 1px 1px 3px #D3D6DB;
 }
 
@@ -204,15 +204,15 @@ nav span:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+     -ms-flex-direction: column;
+         flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+     -ms-flex-pack: center;
+   justify-content: center;
   padding-left: 1.5rem;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+     -ms-flex-align: center;
+        align-items: center;
 }
 
 h1 {
@@ -296,8 +296,8 @@ The hero is very tall on a tablet so hide the bottom */
   .banner .flex-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+       -ms-flex-direction: column;
+           flex-direction: column;
   }
   .hero {
     max-width: 100%;
@@ -348,7 +348,7 @@ The hero is very tall on a tablet so hide the bottom */
 .main {
   max-width: 60%;
   -ms-flex-negative: 1;
-      flex-shrink: 1;
+        flex-shrink: 1;
   margin-top: 2rem;
 }
 
@@ -404,11 +404,11 @@ The hero is very tall on a tablet so hide the bottom */
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+     -ms-flex-direction: column;
+         flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+     -ms-flex-pack: center;
+   justify-content: center;
   width: 65%;
 }
 
@@ -424,8 +424,8 @@ so keep main visible and flex side bar vertically */
   .information .flex-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+       -ms-flex-direction: column;
+           flex-direction: column;
     padding-top: 2rem;
   }
   .main {
@@ -440,8 +440,8 @@ so keep main visible and flex side bar vertically */
     margin: 0 auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+       -ms-flex-direction: column;
+           flex-direction: column;
   }
   .info-item .img-container {
     width: 100%;
@@ -502,10 +502,10 @@ Keep wrapping them onto new rows. */
   -ms-flex-flow: row wrap;
       flex-flow: row wrap;
   -ms-flex-preferred-size: 16rem;
-      flex-basis: 16rem;
+               flex-basis: 16rem;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+     -ms-flex-pack: justify;
+   justify-content: space-between;
   margin: 0 4.5rem;
 }
 
@@ -548,7 +548,7 @@ Keep wrapping them onto new rows. */
 @media only screen and (max-width: 960px) {
   .programmes-container {
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+  justify-content: space-around;
   }
 }
 
@@ -648,11 +648,11 @@ video {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+     -ms-flex-direction: column;
+         flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+     -ms-flex-pack: center;
+   justify-content: center;
 }
 
 /* just hide the sidebar here */
@@ -688,8 +688,8 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+     -ms-flex-pack: justify;
+   justify-content: space-between;
   padding-top: 1rem;
   height: 4rem;
 }
