@@ -62,6 +62,8 @@ footer,
 }
 
 .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 2rem 1.5rem;
 }
@@ -75,17 +77,27 @@ img {
 /* Header Styles */
 header {
   height: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #D3D6DB;
 }
 
 .logo,
 nav {
   height: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo {
@@ -111,6 +123,7 @@ nav {
 nav span {
   padding: 0.5rem;
   border-radius: 3px;
+  -webkit-transition: background-color 450ms ease-out 75ms;
   transition: background-color 450ms ease-out 75ms;
 }
 
@@ -137,14 +150,22 @@ nav span:hover {
     display: none;
   }
   nav.mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-grow: 1;
-    justify-content: space-around;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     padding-right: 0rem;
   }
   nav.mobile .menu {
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
     height: 4rem;
+    -webkit-transition: all 450ms ease 50ms;
     transition: all 450ms ease 50ms;
   }
   nav.mobile img {
@@ -172,16 +193,26 @@ nav span:hover {
 /* Banner Styles */
 .hero {
   max-width: 60%;
-  flex-shrink: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
   box-shadow: 1px 1px 3px #D3D6DB;
 }
 
 .cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-left: 1.5rem;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 h1 {
@@ -215,6 +246,7 @@ h1 {
   color: #D3D6DB;
   background-color: #BE3144;
   cursor: pointer;
+  -webkit-transition: all 450ms ease 50ms;
   transition: all 450ms ease 50ms;
 }
 
@@ -234,6 +266,7 @@ h1 {
   width: 80%;
   position: relative;
   left: 10%;
+  -webkit-transition: all 1s ease 50ms;
   transition: all 1s ease 50ms;
 }
 
@@ -242,12 +275,15 @@ h1 {
   position: relative;
   right: 15%;
   opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-transition: all 1s ease 50ms;
   transition: all 1s ease 50ms;
 }
 
 .btn:hover .arrow {
   right: 0;
   opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 .btn:hover span {
@@ -258,7 +294,10 @@ h1 {
 The hero is very tall on a tablet so hide the bottom */
 @media only screen and (max-width:850px) {
   .banner .flex-container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .hero {
     max-width: 100%;
@@ -308,7 +347,8 @@ The hero is very tall on a tablet so hide the bottom */
 
 .main {
   max-width: 60%;
-  flex-shrink: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
   margin-top: 2rem;
 }
 
@@ -343,6 +383,8 @@ The hero is very tall on a tablet so hide the bottom */
 }
 
 .info-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -357,9 +399,16 @@ The hero is very tall on a tablet so hide the bottom */
 }
 
 .info-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 65%;
 }
 
@@ -373,7 +422,10 @@ The hero is very tall on a tablet so hide the bottom */
 so keep main visible and flex side bar vertically */
 @media only screen and (max-width:850px) {
   .information .flex-container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding-top: 2rem;
   }
   .main {
@@ -386,7 +438,10 @@ so keep main visible and flex side bar vertically */
   .info-item {
     width: 50%;
     margin: 0 auto;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .info-item .img-container {
     width: 100%;
@@ -441,16 +496,23 @@ so keep main visible and flex side bar vertically */
 /* as screen size decreases want to keep these big as long as possible.
 Keep wrapping them onto new rows. */
 .programmes-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
-  flex-basis: 16rem;
-  justify-content: space-between;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -ms-flex-preferred-size: 16rem;
+      flex-basis: 16rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 0 4.5rem;
 }
 
 /* Need to set some sort of fixed width so programmes will wrap onto new rows */
 .programme {
-  flex-basis: 16rem;
+  -ms-flex-preferred-size: 16rem;
+      flex-basis: 16rem;
 }
 
 .course {
@@ -458,6 +520,7 @@ Keep wrapping them onto new rows. */
   color: #D3D6DB;
   margin-bottom: 0.5rem;
   height: 115px;
+  -webkit-transition: background-color 400ms ease-out 75ms;
   transition: background-color 400ms ease-out 75ms;
 }
 
@@ -484,7 +547,8 @@ Keep wrapping them onto new rows. */
 /* switch from 3x2 to 2x3, so change spacing */
 @media only screen and (max-width: 960px) {
   .programmes-container {
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 
@@ -495,7 +559,8 @@ Keep wrapping them onto new rows. */
     margin: 0 auto;
   }
   .programme {
-    flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
   }
 }
 
@@ -559,7 +624,10 @@ video {
 }
 
 .exhibit-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-transition: background-color 400ms ease-out 100ms;
   transition: background-color 400ms ease-out 100ms;
 }
 
@@ -575,9 +643,16 @@ video {
 }
 
 .exhibit-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /* just hide the sidebar here */
@@ -609,8 +684,12 @@ video {
 
 /* Footer Styles */
 footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 1rem;
   height: 4rem;
 }
