@@ -203,9 +203,9 @@ h1 {
 }
 
 .btn {
-  display: block;
+  position: relative;
   padding: 1rem;
-  width: 8rem;
+  width: 50%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   text-align: center;
@@ -223,6 +223,35 @@ h1 {
   box-shadow: 0 0 10px #BE3144;
 }
 
+/* Add fontawesome arrow and animation */
+.btn span,
+.btn .arrow {
+  display:inline-block;
+  text-align: center;
+}
+
+.btn span {
+  width: 80%;
+  position: relative;
+  left: 10%;
+  transition: all 1s ease 50ms;
+}
+
+.btn .arrow {
+  width: 20%;
+  position: relative;
+  right: 15%;
+  opacity: 0;
+  transition: all 1s ease 50ms;
+}
+
+.btn:hover .arrow {
+  right: 0;
+  opacity: 1;
+}
+.btn:hover span {
+  left: 0;
+}
 /* flex content vertical and max-width hero.
 The hero is very tall on a tablet so hide the bottom */
 @media only screen and (max-width:850px) {
