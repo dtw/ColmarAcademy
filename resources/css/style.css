@@ -692,6 +692,9 @@ footer a:hover {
 .copyright {
   padding-left: 1.5rem;
 }
+ .legal {
+   padding-right: 1.5rem;
+ }
 
 .legal span {
   padding-left: 1rem;
